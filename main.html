@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Galactic Conquest</title>
+    <link rel="stylesheet" type="text/css" href="style.css">    
+    <script
+		src="https://code.jquery.com/jquery-3.1.1.min.js"
+		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		crossorigin="anonymous"></script>
+	<script src="main.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<canvas id="galaxy-canvas"></canvas>
+		<img id="galaxy" src="planets/galactic_map.png" alt="Planets" usemap="#galactic-map">
+		<map id="galactic-map" name="galactic-map"></map>
+	</div>
+	<div class="sidebar">
+		<div class="title" id="planet-title"></div>
+		<div class="info" id="planet-nodes"></div>
+	</div>
+</body>
+</html>

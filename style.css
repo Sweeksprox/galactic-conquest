@@ -1,0 +1,29 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+canvas {
+    position: absolute;
+    z-index: 100;
+    width: 80%;
+}
+
+.container {
+    width: 80%;
+    float: left;
+}
+
+.sidebar {
+    float: right;
+    width: 20%;
+    height: auto;
+}
+
+.title, .info {
+    text-align: center;
+}
+
+#planet-title {
+    font-size: 300%;
+}
