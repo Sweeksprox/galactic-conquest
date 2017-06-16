@@ -1,0 +1,102 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+canvas {
+    position: absolute;
+    pointer-events: none;
+}
+
+ul, li {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#canvas-a {
+    z-index: 1;
+}
+
+#canvas-b {
+    z-index: 2;
+}
+
+#canvas-c {
+    z-index: 3;
+}
+
+.map-container {
+    width: 80%;
+    float: left;
+    overflow: hidden;
+}
+
+.sidebar {
+    float: right;
+    width: 20%;
+    height: auto;
+    text-align: center;
+}
+
+.title, .info {
+    text-align: center;
+}
+
+.sub-title {
+    font-size: 200%;
+    margin-bottom: 20px;
+}
+
+
+#planet-title {
+    font-size: 300%;
+}
+
+.header {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+#header-title {
+    font-size: 500%;
+}
+
+button {
+    background-color: #a9a9a9;
+    color: white;
+    font-family: inherit;
+    font-size: 16px;
+    border: none;
+    padding: 5px 10px 5px 10px;
+}
+
+button:hover {
+    background-color: #737373;
+}
+
+#change-view {
+    width: 80%;
+    display: inline-block;
+    float: left;
+    font-size: 200%;
+}
+
+#header-right {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+#user-name {
+
+}
+
+.container {
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 0px auto 5px auto;
+}

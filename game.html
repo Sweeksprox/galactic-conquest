@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Galactic Conquest</title>
+    <link rel="stylesheet" type="text/css" href="styles/game.css">    
+    <script
+		src="https://code.jquery.com/jquery-3.1.1.min.js"
+		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		crossorigin="anonymous"></script>
+	<script src="js/game.js"></script>
+</head>
+
+<body>
+    <div>
+        <button id="change-view" onclick="changeView(this)">Change View</button>
+        <div id="header-right">
+            <div id="user-name">Logged in as: </div>
+            <button id="logout" onclick="logout(this)">Logout</button>
+        </div>
+    </div>
+	<div class="map-container">
+        <canvas id="canvas-a"></canvas>
+        <canvas id="canvas-b"></canvas>
+        <canvas id="canvas-c"></canvas>
+        <img id="map" src="planets/galactic_map.jpg" alt="Planets" usemap="#galactic-map">
+        <img id="graph" src="planets/galactic_graph.jpg" alt="Planets" usemap="#galactic-map" hidden>
+        <map id="galactic-map" name="galactic-map"></map>
+	</div>
+	<div class="sidebar">
+		<div class="title" id="planet-title"></div>
+		<div class="sub-title" id="planet-faction"></div>
+		<div class="info" id="planet-nodes"></div>
+        <button id="move-button" hidden>Move</button>
+		<ul class="info" id="planet-players"></ul>
+	</div>
+</body>
+</html>

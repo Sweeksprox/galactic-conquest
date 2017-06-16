@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Galactic Conquest</title>
+    <link rel="stylesheet" type="text/css" href="styles/landing.css">    
+    <script
+		src="https://code.jquery.com/jquery-3.1.1.min.js"
+		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		crossorigin="anonymous"></script>
+	<script src="js/landing.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <div class="title" id="header-title">Galactic Conquest</div>
+    </div>
+	<div class="container" id="initial">
+	    <button type="submit" onclick="showlogin()">Log In</button>
+        <button type="submit" onclick="showsignup()">Sign Up</button>
+	</div>
+	<div class="container" id="login" hidden>
+        <input type="text" placeholder="Enter Username" id="l-user" required>
+        <input type="password" placeholder="Enter Password" id="l-pass" required>
+        <button type="submit" onclick="login()">Log In</button>
+	</div>
+	<div class="container" id="signup" hidden>
+        <input type="text" placeholder="Enter Username" id="s-user" required>
+        <input type="password" placeholder="Enter Password" id="s-pass-0" required>
+        <input type="password" placeholder="Re-enter Password" id="s-pass-1" required>
+        <button type="submit" onclick="signup()">Sign Up</button>
+	</div>
+</body>
+</html>
